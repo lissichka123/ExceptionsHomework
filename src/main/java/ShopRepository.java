@@ -25,6 +25,7 @@ public class ShopRepository {
         products = addToArray(products, product);
     }
 
+
     public Product[] findAll() {
         return products;
     }
